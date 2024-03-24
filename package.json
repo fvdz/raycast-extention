@@ -11,14 +11,21 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "index",
+      "name": "goodbye",
       "title": "Goodbye",
       "description": "Turns off WiFi and put computer to sleep",
+      "mode": "no-view"
+    },
+    {
+      "name": "hello",
+      "title": "Hello",
+      "description": "Turns on WiFi",
       "mode": "no-view"
     }
   ],
   "dependencies": {
-    "@raycast/api": "^1.69.0"
+    "@raycast/api": "^1.69.0",
+    "@raycast/utils": "^1.13.4"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.6",
